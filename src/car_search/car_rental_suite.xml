@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="carrental_search">
+	<test name="outstation">
+		<classes>
+			<class name="car_search.outsation"></class>
+		</classes>
+	</test>
+	
+	<test name="local">
+		<classes>
+			<class name="car_search.local"></class>
+		</classes>
+	</test>
+	
+	<test name="transfer">
+		<classes>
+			<class name="car_search.transfer"></class>
+		</classes>
+	</test>
+	
+	<test name="deals">
+		<classes>
+			<class name="car_search.deals"></class>
+		</classes>
+	</test>
+</suite>

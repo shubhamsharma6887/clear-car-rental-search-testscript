@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-05T14:32:39 IST" name="carrental_search" finished-at="2023-09-05T14:33:58 IST" duration-ms="78849">
+    <groups>
+    </groups>
+    <test started-at="2023-09-05T14:32:39 IST" name="outstation" finished-at="2023-09-05T14:33:02 IST" duration-ms="23172">
+      <class name="car_search.outsation">
+        <test-method is-config="true" signature="setep()[pri:0, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:39 IST" name="setep" finished-at="2023-09-05T14:32:49 IST" duration-ms="9656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setep -->
+        <test-method signature="oneway_search()[pri:1, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:49 IST" name="oneway_search" finished-at="2023-09-05T14:32:51 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneway_search -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:51 IST" name="back" finished-at="2023-09-05T14:32:53 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method signature="roundtrip_search()[pri:2, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:53 IST" name="roundtrip_search" finished-at="2023-09-05T14:32:55 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundtrip_search -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:55 IST" name="back" finished-at="2023-09-05T14:32:57 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method signature="multicity_search()[pri:3, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:32:57 IST" name="multicity_search" finished-at="2023-09-05T14:33:00 IST" duration-ms="2564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multicity_search -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:33:00 IST" name="back" finished-at="2023-09-05T14:33:02 IST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:car_search.outsation@292b08d6]" started-at="2023-09-05T14:33:02 IST" name="exit" finished-at="2023-09-05T14:33:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- car_search.outsation -->
+    </test> <!-- outstation -->
+    <test started-at="2023-09-05T14:33:02 IST" name="local" finished-at="2023-09-05T14:33:18 IST" duration-ms="15735">
+      <class name="car_search.local">
+        <test-method is-config="true" signature="setep()[pri:0, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:02 IST" name="setep" finished-at="2023-09-05T14:33:08 IST" duration-ms="5609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setep -->
+        <test-method signature="half_day()[pri:1, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:08 IST" name="half_day" finished-at="2023-09-05T14:33:10 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- half_day -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:10 IST" name="back" finished-at="2023-09-05T14:33:12 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method signature="full_day()[pri:2, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:12 IST" name="full_day" finished-at="2023-09-05T14:33:15 IST" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- full_day -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:15 IST" name="back" finished-at="2023-09-05T14:33:18 IST" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:car_search.local@40005471]" started-at="2023-09-05T14:33:18 IST" name="exit" finished-at="2023-09-05T14:33:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- car_search.local -->
+    </test> <!-- local -->
+    <test started-at="2023-09-05T14:33:18 IST" name="transfer" finished-at="2023-09-05T14:33:42 IST" duration-ms="24321">
+      <class name="car_search.transfer">
+        <test-method is-config="true" signature="setep()[pri:0, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:18 IST" name="setep" finished-at="2023-09-05T14:33:26 IST" duration-ms="8043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setep -->
+        <test-method signature="railway_station()[pri:1, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:26 IST" name="railway_station" finished-at="2023-09-05T14:33:29 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- railway_station -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:29 IST" name="back" finished-at="2023-09-05T14:33:32 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method signature="airport()[pri:2, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:32 IST" name="airport" finished-at="2023-09-05T14:33:35 IST" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- airport -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:35 IST" name="back" finished-at="2023-09-05T14:33:38 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method signature="area_hotel()[pri:3, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:38 IST" name="area_hotel" finished-at="2023-09-05T14:33:40 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- area_hotel -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:40 IST" name="back" finished-at="2023-09-05T14:33:42 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:car_search.transfer@55fe41ea]" started-at="2023-09-05T14:33:42 IST" name="exit" finished-at="2023-09-05T14:33:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- car_search.transfer -->
+    </test> <!-- transfer -->
+    <test started-at="2023-09-05T14:33:42 IST" name="deals" finished-at="2023-09-05T14:33:58 IST" duration-ms="15446">
+      <class name="car_search.deals">
+        <test-method is-config="true" signature="setep()[pri:0, instance:car_search.deals@2aceadd4]" started-at="2023-09-05T14:33:42 IST" name="setep" finished-at="2023-09-05T14:33:54 IST" duration-ms="11108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setep -->
+        <test-method signature="oneway_deals()[pri:1, instance:car_search.deals@2aceadd4]" started-at="2023-09-05T14:33:54 IST" name="oneway_deals" finished-at="2023-09-05T14:33:55 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneway_deals -->
+        <test-method is-config="true" signature="back()[pri:0, instance:car_search.deals@2aceadd4]" started-at="2023-09-05T14:33:55 IST" name="back" finished-at="2023-09-05T14:33:58 IST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- back -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:car_search.deals@2aceadd4]" started-at="2023-09-05T14:33:58 IST" name="exit" finished-at="2023-09-05T14:33:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- car_search.deals -->
+    </test> <!-- deals -->
+  </suite> <!-- carrental_search -->
+</testng-results>
